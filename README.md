@@ -1,11 +1,5 @@
 # ✈️ Explainable Deep RL Jet Agent in Pygame 🕹️
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg?logo=python)](https://www.python.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Stars](https://img.shields.io/github/stars/yourusername/explainable-jet-rl-ai?style=social)](https://github.com/yourusername/explainable-jet-rl-ai/stargazers)  
-
----
-
 ## 📖 Overview  
 
 This project implements a **Deep Reinforcement Learning (DRL) Agent** that simulates a **fighter jet** in a custom **Pygame + Gym environment**.  
@@ -17,7 +11,7 @@ Not only does the agent make decisions, but it also **explains why** — by comp
 ✅ Combines **Game AI, RL, and Explainability**  
 ✅ Built with **Python, PyTorch, Gym, and Pygame**  
 
----
+
 
 ## 🎯 Features  
 
@@ -27,7 +21,7 @@ Not only does the agent make decisions, but it also **explains why** — by comp
 - 🚀 **Live Visualization**: watch your jet dodge enemies in real time  
 - 📊 **Reinforcement Learning Training** loop included  
 
----
+
 
 ## 🛠️ Installation  
 
@@ -39,7 +33,7 @@ cd explainable-jet-rl-ai
 pip install -r requirements.txt
 ```
 
----
+
 
 ## ▶️ Usage  
 
@@ -59,7 +53,7 @@ Episode 0 finished with reward 1.0
 
 👆 The agent chose **Action 2 (Right)** because its Q-value (0.87) was higher than the alternatives.  
 
----
+
 
 ## 📂 Project Structure  
 
@@ -72,7 +66,7 @@ explainable-jet-rl-ai/
 │── README.md             # Documentation
 ```
 
----
+
 
 ## 🚀 Roadmap  
 
@@ -80,22 +74,3 @@ explainable-jet-rl-ai/
 - [ ] Add multiple enemy jets 🛩️  
 - [ ] Save & load trained models 💾  
 - [ ] Integrate with `stable-baselines3` for advanced RL 🧠  
-
----
-
-## 🤝 Contributing  
-
-Contributions are welcome! 🙌  
-Fork the repo, create a new branch, and open a PR 🚀  
-
----
-
-## ⭐ Support  
-
-If you find this project helpful, please **star ⭐ the repo** — it motivates me to create more awesome AI projects!  
-
----
-
-## 📜 License  
-
-This project is released under the **MIT License**.  
